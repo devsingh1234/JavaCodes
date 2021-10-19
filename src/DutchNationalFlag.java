@@ -1,6 +1,6 @@
 public class DutchNationalFlag {
     public static void main(String[] args) {
-        int[] arr = {1,1,0,2,1,0,2};
+        int[] arr = {1,1,2,2,1,0,0};
         int[] ans = DutchProblem(arr);
         printt(ans);
     }

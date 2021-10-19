@@ -6,15 +6,15 @@ public class firstindexof {
         System.out.println(firstindex(arr, 0, 5));
 
     }
-    public static int firstindex(int arr[],int si , int data){
-        if (arr.length == si){
+    public static int firstindex(int arr[],int start , int data){
+        if (arr.length == start){
             return -1;
         }
-        if (arr[si] == data){
-            return si;
+        if (arr[start] == data){
+            return start;
 
         }else{
-            int ans = firstindex(arr,si+1,data);
+            int ans = firstindex(arr,start+1,data);
             return ans;
         }
     }
